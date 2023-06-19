@@ -1,3 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #1f2937;
+    padding: 200px;
+    border: solid green;
+}
+.description{
+    padding: 20px;
+}
+nav{
+    border: solid orange;
+    margin-bottom: 70px;
+    margin-top: -100px;
+    padding: 10px;
+    color: #e5e7eb;
+    font: 18px;
+    display: flex;
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    flex: 1;
+}
+
+#main_txt{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+.sec-text{
+    font-size: 18px;
+    color: #e5e7eb;
+    
+}
+.description{
+    border: solid white;
+    display: flex;
+    width: 1100px;
+    margin-top: 30px;
+}
+.text{
+    /* padding: 10px; */
+    border: green solid;
+    width: 900px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#top-image{
+    width: 450px;
+    height: 400px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
+    background-color: #FFFAFA;
+    display: inline-block;
+    margin-left: 100px;
+    
+
+}
+#sig{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 4px solid black;
+    width: 120px;
+    height: 30px;
+    margin-top: 120px;
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
 /* .container{
     border: 5px solid black; */
     /*height: 50rem;*/
@@ -7,34 +89,30 @@
 /* .container > div {
     flex: 1;
 } */
+/* body{
+    background-color: black;
+}
 .container{
-    box-sizing: border-box;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    background-color: white;
 }
-.header{
-    background-color: #1f2937;
 
+nav{
+    flex-direction: column;
 }
-#main_txt{
-    font-size: 48px;
-    color: #f9faf8;
-    font-weight: bold;
-}
+a{
+    /* display: flex; */
+/* } 
+
 .logo{
     font-size: 24px;
     color: #f9faf8;
 }
-.sec-text{
-    font-size: 18px;
-    color: #e5e7eb;
-}
-#sig{
-    background-color: #3882f6;
-    color: white;
-    border-radius: 3px;
 
-}
+ */
 
-.link{
+/* .link{
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -62,12 +140,12 @@ img {
 }
 #author{
     text-align: end;
-}
+} */
 /* .blue{
     background-color: white;
 
 } */
-#box{
+/* #box{
     background-color: #3186fc;
     color: white;
     text-align: center;
@@ -93,4 +171,4 @@ img {
 #ft-txt{
     color: white;
     padding: 25px;
-}
+} */ 
