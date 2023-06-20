@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0px;
     box-sizing: border-box;
+    
 }
+
 .header{
     background-color: #1f2937;
     /* padding: 180px; */
@@ -61,6 +63,15 @@ nav{
     /* margin-right: 10px; */
     margin-bottom: 10px;
 }
+#sig{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 7px solid white;
+    width: 120px;
+    height: 30px;
+    margin-top: 50px;  
+
+}
 #top-image{
     width: 450px;
     height: 220px;
@@ -68,18 +79,8 @@ nav{
     background-color: #FFFAFA;
     /* display: inline-block; */
     margin-left: 80px;
-    
-
 }
-#sig{
-    background-color: #3882f6;
-    color: white;
-    border-radius: 4px solid black;
-    width: 120px;
-    height: 30px;
-    margin-top: 50px;  
 
-}
 .image-section{
     border: solid darkmagenta;
     padding: 30px;
@@ -89,15 +90,22 @@ nav{
     display: inline-block;
     border: #1f2937 solid;
     display: flex;
-    justify-content: space-between;
-    
+    /* justify-content: space-between; */
+    /* align-content: space-around; */
+    justify-content: space-evenly;
+    width: auto;
+    /* padding-left: 180px; */
+    /* padding-right: 180px; */
+    padding: 50px 200px;
 }
 #info{
     text-align: center;
+
 }
 #image{
-    width: 300px;
-    height: 200px;
+    width: 200px;
+    height: 150px;
+    
 }
 .quote{
     background-color: #e5e7eb;
@@ -106,25 +114,28 @@ nav{
     font-style: italic;
     text-align: center;
     border: solid blue;
+    padding: 50px 200px;
+    width: auto;
 
 }
 #qt{
     width: 800px;
     border: solid green;
-    padding: 20px;
-    margin-left: 300px;
+    /* padding: 20px; */
+    margin-left: 100px;
     margin-top: 30px;
 
 }
 #author{
     text-align: end;
-    padding-right: 60px;
+    padding-right: 200px;
 }
 .blue{
     background-color: white;
     border: solid red;
     height: 200px;
     padding-top: 50px;
+    /* width: fit-content; */
 }
 #box{
     background-color: #3186fc;
@@ -145,7 +156,7 @@ nav{
 #sign{
     border: 2px solid white;
     color:white;
-    border-radius: 4px;
+    border-radius: 5px;
     background-color: #3186fc;
     height: 30px;
     width: 90px;
@@ -160,4 +171,13 @@ nav{
     color: white;
     padding: 15px;
 } 
+html, body{
+    height: 100%;
+    width: 100%;
+}
 
+.container{ 
+    height: 100%;
+    width: 100%;
+    /* display: flex; */
+}
