@@ -1,20 +1,28 @@
 *{
-    margin: 0px;
+    margin: 0;
     padding: 0px;
     box-sizing: border-box;
 }
 .header{
     background-color: #1f2937;
-    padding: 180px;
+    /* padding: 180px; */
+    padding: 10%;
     border: solid green;
 }
 .description{
+    /* padding: 20px; */
     padding: 20px;
+    width: 100%;
+    border: solid white;
+    display: flex;
+    /* width: 1100px; */
+    margin-top: 30px;
 }
 nav{
     border: solid orange;
     margin-bottom: 70px;
-    margin-top: -170px;
+    /* margin-top: -170px; */
+    margin-top: -10%;
     padding: 10px;
     color: #e5e7eb;
     font: 18px;
@@ -41,16 +49,16 @@ nav{
     color: #e5e7eb;
     
 }
-.description{
+/* .description{
     border: solid white;
     display: flex;
     width: 1100px;
     margin-top: 30px;
-}
+} */
 .text{
     border: green solid;
     width: 600px;
-    margin-right: 10px;
+    /* margin-right: 10px; */
     margin-bottom: 10px;
 }
 #top-image{
@@ -58,8 +66,8 @@ nav{
     height: 220px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
     background-color: #FFFAFA;
-    display: inline-block;
-    margin-left: 100px;
+    /* display: inline-block; */
+    margin-left: 80px;
     
 
 }
@@ -71,6 +79,25 @@ nav{
     height: 30px;
     margin-top: 50px;  
 
+}
+.image-section{
+    border: solid darkmagenta;
+    padding: 30px;
+}
+
+.info{
+    display: inline-block;
+    border: #1f2937 solid;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#info{
+    text-align: center;
+}
+#image{
+    width: 300px;
+    height: 200px;
 }
 .quote{
     background-color: #e5e7eb;
@@ -134,55 +161,3 @@ nav{
     padding: 15px;
 } 
 
-
-/* .container{
-    border: 5px solid black; */
-    /*height: 50rem;*/
-    /*margin: -9px;
-
-} */
-/* .container > div {
-    flex: 1;
-} */
-/* body{
-    background-color: black;
-}
-.container{
-    margin-right: 4rem;
-    margin-left: 4rem;
-    background-color: white;
-}
-
-nav{
-    flex-direction: column;
-}
-a{
-    /* display: flex; */
-/* } 
-
-.logo{
-    font-size: 24px;
-    color: #f9faf8;
-}
-
- */
-
-/* .link{
-    font-size: 18px;
-    color: #e5e7eb;
-}
-.info{
-
-
-}
-#info-txt{
-    color: #1f2937;
-    font-weight: bold;
-    font-size: 36px;
-}
-img {
-    width: 75%;
-    height: 250px;
-    object-fit: contain;
-}
-/* 
