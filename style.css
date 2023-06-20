@@ -5,7 +5,7 @@
 }
 .header{
     background-color: #1f2937;
-    padding: 200px;
+    padding: 180px;
     border: solid green;
 }
 .description{
@@ -14,7 +14,7 @@
 nav{
     border: solid orange;
     margin-bottom: 70px;
-    margin-top: -100px;
+    margin-top: -170px;
     padding: 10px;
     color: #e5e7eb;
     font: 18px;
@@ -25,7 +25,12 @@ nav{
     color: #f9faf8;
     flex: 1;
 }
-
+.links{
+    border: solid red;
+    word-spacing: 60px;
+    margin-left: 50px;
+    padding-right: 50px;
+}
 #main_txt{
     font-size: 48px;
     color: #f9faf8;
@@ -43,15 +48,14 @@ nav{
     margin-top: 30px;
 }
 .text{
-    /* padding: 10px; */
     border: green solid;
-    width: 900px;
+    width: 600px;
     margin-right: 10px;
     margin-bottom: 10px;
 }
 #top-image{
     width: 450px;
-    height: 400px;
+    height: 220px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
     background-color: #FFFAFA;
     display: inline-block;
@@ -65,19 +69,70 @@ nav{
     border-radius: 4px solid black;
     width: 120px;
     height: 30px;
-    margin-top: 120px;
-   
+    margin-top: 50px;  
 
 }
+.quote{
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    border: solid blue;
 
+}
+#qt{
+    width: 800px;
+    border: solid green;
+    padding: 20px;
+    margin-left: 300px;
+    margin-top: 30px;
 
-
-
-
-
-
-
-
+}
+#author{
+    text-align: end;
+    padding-right: 60px;
+}
+.blue{
+    background-color: white;
+    border: solid red;
+    height: 200px;
+    padding-top: 50px;
+}
+#box{
+    background-color: #3186fc;
+    color: white;
+    margin-left: 300px;
+    padding-right: 60px;
+    padding-left: 70px;
+    padding-top: 30px;
+    width: 700px;
+    height: 100px;
+    border-radius: 7px;
+}
+.word{
+    border: solid green;
+    display: inline-block;
+    display: flex;
+}
+#sign{
+    border: 2px solid white;
+    color:white;
+    border-radius: 4px;
+    background-color: #3186fc;
+    height: 30px;
+    width: 90px;
+    margin-left: 250px; 
+}
+.footer{
+    background-color: #1f2937;
+    height: 50px;
+    text-align: center;
+}
+#ft-txt{
+    color: white;
+    padding: 15px;
+} 
 
 
 /* .container{
@@ -130,45 +185,4 @@ img {
     height: 250px;
     object-fit: contain;
 }
-.quote{
-    background-color: #e5e7eb;
-    color: #1f2937;
-    font-size: 36px;
-    font-style: italic;
-    text-align: center;
-
-}
-#author{
-    text-align: end;
-} */
-/* .blue{
-    background-color: white;
-
-} */
-/* #box{
-    background-color: #3186fc;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    width: auto;
-    height: 130px;
-    margin: 60px;
-    border-radius: 5px;
-
-}
-#sign{
-    border: 3px solid white;
-    height: 30px;
-    width: 90px;
-    
-    
-}
-.footer{
-    background-color: #1f2937;
-    height: 60px;
-    text-align: center;
-}
-#ft-txt{
-    color: white;
-    padding: 25px;
-} */ 
+/* 
