@@ -41,11 +41,13 @@ nav{
     color: #f9faf8;
     flex: 1;
 }
+
 .links{
     word-spacing: 60px;
     margin-left: 50px;
     padding-right: 50px;
 }
+
 #main_txt{
     font-size: 48px;
     color: #f9faf8;
